@@ -17,8 +17,7 @@ This repository hosts a developer blog built with Docusaurus. It includes tools 
   - [Deployment](#deployment)
     - [Deploy to Github Pages](#deploy-to-github-pages)
     - [Deploying using NGINX](#deploying-using-nginx)
-    - [Contributing](#contributing)
-
+    
 ## Quickstart
 
 ### Prerequisites
