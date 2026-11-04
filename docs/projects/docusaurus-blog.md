@@ -1,5 +1,5 @@
-# Hi there, I'm Jérôme! 👋 
-## jeromewinkler-Omega at github.com
+# Hi there, I'm Jérôme! 
+## jeromewinkler-Omega at github
 
 Focusing on transitioning into the **DevSecOps** landscape.
 I combine a relentless pursuit of efficiency with a constant stream of new ideas to create secure, automated, and scalable environments.
