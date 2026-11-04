@@ -59,7 +59,7 @@ const config: Config = {
             // Please change this to your repo.
             // Remove this to remove the "edit this page" links.
             editUrl:
-              'https://github.com/spmse/dev-blog-template',
+              'https://github.com/jeromewinkler-Omega/dso-blog-template',// dso-blog-template',
             // Useful options to enforce blogging best practices
             onInlineTags: 'warn',
             onInlineAuthors: 'warn',
@@ -75,7 +75,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/z_nano_core_social_card_v2.png',//'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'My Site',
       logo: {
@@ -106,36 +106,47 @@ const config: Config = {
               label: 'Tutorial',
               to: '/docs/guides/intro',
             },
+            {
+              label: 'Projects',
+              to: '/docs/projects/overview',
+            },
           ],
         },
         {
-          title: 'Community',
+          title: 'Projects', // Hinzufügen des neuen Menüpunkts "Projects" in der Fußzeile
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Overview',
+              to: '/docs/projects/overview',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Docusaurus-Blog',
+              to: '/docs/projects/docusaurus-blog',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Project2',
+              to: '/docs/projects/project2',
             },
           ],
+          
         },
+        // entfernen von "Community" und "More" Menüpunkten, wenn nicht benötigt
         {
           title: 'More',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Blog',
+              to: '/blog',
             }
+            {
+              label: 'GitHub',
+              href: 'https://github.com/jeromewinkler-Omega/dso-blog',
+            },
+
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Sven Patrick Meier (spmse). Built with Docusaurus and 💚.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Z-Nano-Core. Built with Docusaurus. 💚.extended from the developer-akademie-starter  `, // User-Anpassung und extended hinzugefügt
     },
     prism: {
       theme: prismThemes.github,
