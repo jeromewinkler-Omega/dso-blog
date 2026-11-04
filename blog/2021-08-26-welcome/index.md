@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [slorber, yangshun]
+authors: [Sébastien Lorber,Yangshun Tay,JWinkler]
 tags: [facebook, hello, docusaurus]
 ---
 
@@ -22,7 +22,7 @@ The blog post date can be extracted from filenames, such as:
 
 A blog post folder can be convenient to co-locate blog post images:
 
-![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
+![Docusaurus Plushie](./z-nano-core-banner-8.png)
 
 The blog supports tags as well!
 

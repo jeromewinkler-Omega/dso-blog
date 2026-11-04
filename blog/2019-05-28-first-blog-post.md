@@ -4,7 +4,14 @@ title: First Blog Post
 authors: [slorber, yangshun]
 tags: [hola, docusaurus]
 ---
+slug: first-blog-post
+title: First Blog Post
+authors: [Jérôme Winkler]
+tags: [hola, docusaurus}
 
+
+
+---
 Lorem ipsum dolor sit amet...
 
 <!-- truncate -->
