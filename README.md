@@ -17,8 +17,7 @@ This repository hosts a developer blog built with Docusaurus. It includes tools 
   - [Deployment](#deployment)
     - [Deploy to Github Pages](#deploy-to-github-pages)
     - [Deploying using NGINX](#deploying-using-nginx)
-    - [Contributing](#contributing)
-
+    
 ## Quickstart
 
 ### Prerequisites
@@ -91,6 +90,8 @@ To deploy without using SSH, run:
 ```
 $ GIT_USER=<Your GitHub username> pnpm deploy
 ```
+
+Every push to the `main` branch triggers a prepared GitHub Actions workflow that automatically builds the website and deploys it to GitHub Pages.
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 

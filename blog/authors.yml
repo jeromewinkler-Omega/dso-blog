@@ -21,3 +21,15 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+jwinkler:
+  name: Jérôme Winkler
+  title: Docusaurus maintainer
+  url: https://github.com/jeromewinkler-Omega/dso-blog
+  image_url: https://github.com/jwinkler.png
+  page:
+    permalink: '/all-jerome-winkler-articles'
+  socials:
+    x: jwinkler
+    linkedin: jerome-winkler
+    github: jeromewinkler-Omega

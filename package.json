@@ -19,7 +19,7 @@
     "@docusaurus/preset-classic": "3.5.2",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.6.1",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
@@ -28,7 +28,8 @@
     "@docusaurus/module-type-aliases": "3.5.2",
     "@docusaurus/tsconfig": "3.5.2",
     "@docusaurus/types": "3.5.2",
-    "typescript": "~5.5.2"
+    "typescript": "~5.5.2",
+    "webpack": "5.95.0"
   },
   "browserslist": {
     "production": [
