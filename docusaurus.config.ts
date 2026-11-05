@@ -9,12 +9,13 @@ dotenvconfig();
 /* TODO: change to read configuration from environment */
 const blogEnabled = Boolean(process.env.BLOG_ENABLED === 'true')
 const gitRepositoryUrl = process.env.GIT_REPOSITORY_URL ?? 'https://github.com/jeromewinkler-Omega/dso-blog';
+const isDev = process.env.NODE_ENV === 'development';
 
 
 const config: Config = {
   title: 'DSO Live Blog to verify my live Project diary ',
   tagline: 'Combining a relentless drive for efficiency with meticulous attention to detail, I am fully focused on transitioning into the DevSecOps landscape and mastering the challenges ahead.l',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/Omega-favicon.ico',
 
   // Set the production url of your site here
   url: process.env.DEPLOYMENT_URL ?? "https://jeromewinkler-Omega.github.io/", //"https://spmse.github.io",
@@ -60,8 +61,8 @@ const config: Config = {
             },
             // Please change this to your repo.
             // Remove this to remove the "edit this page" links.
-            editUrl:
-              'https://github.com/jeromewinkler-Omega/dso-blog-template',// dso-blog-template',
+            editUrl:`${gitRepositoryUrl}/tree/main/`,
+              //'https://github.com/jeromewinkler-Omega/dso-blog-template',// dso-blog-template',
             // Useful options to enforce blogging best practices
             onInlineTags: 'warn',
             onInlineAuthors: 'warn',
@@ -79,10 +80,10 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/z_nano_core_social_card_v2.png',//'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Omega-DSO Live Blog',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/omega-logo.svg',
       },
       items: [
         {
@@ -96,6 +97,9 @@ const config: Config = {
           label: 'Github',
           position: 'right',
         },
+        ...(isDev
+          ? [{ href: 'https://screenpal.com', label: 'ScreenPal', position: 'right' as const }]
+          :[]),
       ],
     },
     footer: {
@@ -144,7 +148,13 @@ const config: Config = {
               label: 'GitHub',
               href: 'https://github.com/jeromewinkler-Omega/dso-blog',
             },
-
+            {
+              label: 'Template',
+              href: 'https://github.com/jeromewinkler-Omega/dso-blog-template',
+            },
+            ...(isDev
+          ? [{ href: 'https://screenpal.com', label: 'ScreenPal', position: 'right' as const }]
+          :[]),
           ],
         },
       ],
