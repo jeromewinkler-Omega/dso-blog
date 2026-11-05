@@ -1,4 +1,7 @@
-# Hi there, I'm Jérôme! 
+# Docusaurus-Blog
+
+
+## Hi there, I'm Jérôme! 
 ## jeromewinkler-Omega at github
 
 Focusing on transitioning into the **DevSecOps** landscape.
@@ -29,7 +32,7 @@ Security Core Focus    : DevSecOps Pipelines, Code Scanning, Secret Protection
 ```
 
 ###  Find My Work
--  **Live Diary:** [Read my Blog here](https://github.io)
+-  **Live Diary:** [Read my Blog here](https://github.com/jeromewinkler-Omega.io/dso-blog/)
 -  **Connect:** Feel free to explore my repositories or open an issue for collaboration.
 
 import GithubLinkAdmonition from '@site/src/components/GithubLinkAdmonition';

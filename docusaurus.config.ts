@@ -129,14 +129,7 @@ const config: Config = {
               label: 'Docusaurus-Blog',
               to: '/docs/projects/docusaurus-blog',
             },
-            {
-              label: 'Project2',
-              to: '/docs/projects/project2',
-            },
-            {
-              label: 'Project3',
-              to: '/docs/projects/project3',
-            },
+            
           ],
           
         },
@@ -144,10 +137,7 @@ const config: Config = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
+            
             {
               label: 'GitHub',
               href: 'https://github.com/jeromewinkler-Omega/dso-blog',
