@@ -1,4 +1,4 @@
-# Project-Title
+# Project-3
 
 <!--INSERT YOUR BRIEF DESCRIPTION HERE -->
 A simple and brief description and intro to the project.

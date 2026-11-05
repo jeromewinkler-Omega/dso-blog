@@ -133,6 +133,10 @@ const config: Config = {
               label: 'Project2',
               to: '/docs/projects/project2',
             },
+            {
+              label: 'Project3',
+              to: '/docs/projects/project3',
+            },
           ],
           
         },
