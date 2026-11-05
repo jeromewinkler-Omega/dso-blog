@@ -8,7 +8,7 @@ dotenvconfig();
 
 /* TODO: change to read configuration from environment */
 const blogEnabled = Boolean(process.env.BLOG_ENABLED === 'true')
-const gitRepositoryUrl = process.env.GIT_REPOSITORY_URL ?? 'https://github.com/jeromewinkler-Omega/dso-blog' + '/tree/main/';
+const gitRepositoryUrl = process.env.GIT_REPOSITORY_URL ?? 'https://github.com/jeromewinkler-Omega/dso-blog';
 const isDev = process.env.NODE_ENV === 'development';
 
 
@@ -61,7 +61,7 @@ const config: Config = {
             },
             // Please change this to your repo.
             // Remove this to remove the "edit this page" links.
-            editUrl:gitRepositoryUrl,
+            editUrl:`${gitRepositoryUrl}/tree/main/`,
               //'https://github.com/jeromewinkler-Omega/dso-blog-template',// dso-blog-template',
             // Useful options to enforce blogging best practices
             onInlineTags: 'warn',
